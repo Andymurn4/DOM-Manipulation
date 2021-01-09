@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment-5</title>
+    <link rel = "stylsheet" href ="assignment-5-style.css">
+</head>
+<body onload="createColorMenu">
+  <section id="side-menu">
+    <button class ="menu-button" onclick="addRow()">Add Row</button>
+    <button class ="menu-button" onclick="addColumn()">Add Column</button>
+    <button class ="menu-button" onclick="removeRows()">Remove Row</button>
+    <button class ="menu-button" onclick="removeColums()">Remove Columns</button>
+    <div class="dropdown">
+      <button class ="menu-button" onclick="fillAllUncolored()">Fill All Uncolored Cells</button>
+      <button class ="menu-button" onclick="fillAllCells()">Fill All Cells</button>
+      <button class ="menu-button" onclick="clearAllCells()">Clear All Cells</button>
+    </div>
+  </section>
+    
+  
+    
+        <table id="grid"></table>
+    
+<script src = "assignment-5.js"></script>
+</body>
+</html>
